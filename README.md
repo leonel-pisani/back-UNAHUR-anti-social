@@ -3,7 +3,7 @@
 Backend de la aplicación **UnaHur Anti-Social Net**, una red social desarrollada como trabajo práctico.
 
 👉 Este proyecto representa la API REST que consume el frontend.
-👉 Podés ver el frontend acá: **https://github.com/leonel-pisani/front**
+👉 Podés ver el frontend acá: **https://github.com/leonel-pisani/front-UNAHUR-anti-social**
 
 ---
 
@@ -37,7 +37,7 @@ Incluye validaciones, cache con Redis y documentación con Swagger.
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/leonel-pisani/back-UNAHUR-anti-social#
+git clone https://github.com/leonel-pisani/back-UNAHUR-anti-social.git
 cd back-UNAHUR-anti-social
 npm install
 ```
