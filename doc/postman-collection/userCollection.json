@@ -1,0 +1,154 @@
+{
+  "info": {
+    "name": "userCollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "actualizarUsuario",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/user/6910c18cbc0e50bd3f4ed683",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "user",
+            "6910c18cbc0e50bd3f4ed683"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nickName\": \"SachS21\"\n  \n  \n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "crearUsuario",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/user",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "user"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"nickName\": \"SachS1\",\n\"email\": \"emailfal1so@gmail.com\",\n\"password\": \"1235421\"\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "eliminarUsuario",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/user/6910c18cbc0e50bd3f4ed683",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "user",
+            "6910c18cbc0e50bd3f4ed683"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "obtenerUsuario",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/user/6910c21cfab24407b4a32f83",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "user",
+            "6910c21cfab24407b4a32f83"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "ObtenerUsuarios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/user",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "user"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "variable": []
+}

@@ -1,0 +1,100 @@
+{
+  "info": {
+    "name": "commentCollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "actualizarComentario",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/comment/691127befd46ae06da75ed68",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "comment",
+            "691127befd46ae06da75ed68"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"content\": \"asdasdmasbndfkajsbfhjkaaaasss\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "crearComentario",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9/comentarios",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9",
+            "comentarios"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"idUser\":\"6910c21cfab24407b4a32f83\",\n  \"content\": \"Holasdasdasdasdasdda\"\n\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "eliminarComentario",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/comment/6911281c4dfe8961935b5dbf",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "comment",
+            "6911281c4dfe8961935b5dbf"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}

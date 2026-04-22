@@ -1,0 +1,301 @@
+{
+  "info": {
+    "name": "postCollection",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "actualizarPost",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"description\": \"asdasdasdasdasdasdasdas\"\n  \n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "asociarTag",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9/etiquetas",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9",
+            "etiquetas"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{  \n  \"name\": \"etiquetaPrueba1\"\n  \n  \n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "crearImagen",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9/imagenes",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9",
+            "imagenes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"imageUrls\":[\"https://ruridragon.com/wp-content/uploads/2025/05/ruridragon_illustration.webp\"]\n  \n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "crearPost",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/user/6910c21cfab24407b4a32f83/post",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "user",
+            "6910c21cfab24407b4a32f83",
+            "post"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"idUser\":\"6910c21cfab24407b4a32f83\",\n  \"description\": \"Holaasdasdasdasdasdasdasdsassdasdasdasdd\"\n  \n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "eliminarComentario",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/comment/691127befd46ae06da75ed68",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "comment",
+            "691127befd46ae06da75ed68"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "eliminarImagen",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9/imagenes/6911391ca937a82dd467396c",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9",
+            "imagenes",
+            "6911391ca937a82dd467396c"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"idPost\":1,\n  \"imageUrls\":[\"https://ruridragon.com/wp-content/uploads/2025/05/ruridragon_illustration.webp\"]\n\n  \n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "eliminarPublicacion",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/69113951a937a82dd467397c",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "69113951a937a82dd467397c"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "eliminarTagDelPost",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9/etiquetas/691138dda937a82dd4673955",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9",
+            "etiquetas",
+            "691138dda937a82dd4673955"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "obtenerPost",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post/691126f77cf18bfb9791b9f9",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post",
+            "691126f77cf18bfb9791b9f9"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "obtenerPosts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/post",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "post"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}

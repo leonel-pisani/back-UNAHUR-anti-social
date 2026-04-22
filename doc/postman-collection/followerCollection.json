@@ -1,0 +1,111 @@
+{
+  "info": {
+    "name": "followerCollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "crearFollow",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/followers/691126a97cf18bfb9791b9f1/follow/6910c21cfab24407b4a32f83",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "followers",
+            "691126a97cf18bfb9791b9f1",
+            "follow",
+            "6910c21cfab24407b4a32f83"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "eliminarFollow",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/followers/691126a97cf18bfb9791b9f1/unfollow/6910c21cfab24407b4a32f83",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "followers",
+            "691126a97cf18bfb9791b9f1",
+            "unfollow",
+            "6910c21cfab24407b4a32f83"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "obtenerFollowers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/followers/6910c21cfab24407b4a32f83/followers",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "followers",
+            "6910c21cfab24407b4a32f83",
+            "followers"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "obtenerFollowings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/followers/691126a97cf18bfb9791b9f1/followings",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "followers",
+            "691126a97cf18bfb9791b9f1",
+            "followings"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}

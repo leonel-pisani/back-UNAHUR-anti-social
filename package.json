@@ -1,0 +1,26 @@
+{
+  "name": "anti-social",
+  "version": "1.0.0",
+  "description": "UnaHur anti-social net - Trabajo Práctico",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonel Pisani",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.19.3",
+    "redis": "^5.9.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
+}
