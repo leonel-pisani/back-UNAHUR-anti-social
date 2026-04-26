@@ -87,16 +87,6 @@ http://localhost:3001
 
 ---
 
-## 📚 Documentación API
-
-Disponible en:
-
-```
-http://localhost:3001/api-docs
-```
-
----
-
 ## 📌 Endpoints principales
 
 ### 👤 Usuarios
